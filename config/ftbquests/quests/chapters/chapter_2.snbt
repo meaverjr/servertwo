@@ -1,0 +1,1566 @@
+{
+	autofocus_id: "71924760B7254046"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_2"
+	group: "43B2022E26682B47"
+	id: "1E93E2C5AC00A1B7"
+	images: [{
+		alpha: 110
+		height: 30.0d
+		image: "kubejs:textures/images/armas.png"
+		rotation: 0.0d
+		width: 40.0d
+		x: -2.5d
+		y: -8.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&fThe legendary cursed tool known as the &aInverted Spear of Heaven&f possesses a terrifying property it nullifies cursed techniques upon contact. &fOnce wielded by a sorcerer killer, this weapon was feared even by the strongest. Obtain the &aInverted Spear of Heaven&f and claim a relic capable of cutting through the very foundation of jujutsu techniques."]
+			id: "3EB6964C348A3031"
+			rewards: [
+				{
+					id: "5D43E329C22BFDEC"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "353DD5CCDA29527F"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7The blade that denies techniques"
+			tasks: [{
+				id: "5B3F8837E67D4153"
+				item: {
+					Count: 1
+					id: "jujutsucraft:inverted_spear_of_heaven"
+					tag: {
+						CursePower: 10.0d
+						Damage: 0
+						Knockback: -0.25d
+						Power: 0.1d
+						Reach: -0.125d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eInverted Spear of Heaven"
+			x: -3.0d
+			y: -13.5d
+		}
+		{
+			description: ["&fThe &aSplit Soul Katana&f is a cursed tool capable of cutting directly through the soul, bypassing conventional durability and defenses. Its edge does not measure strength by armor or cursed energy it strikes at the core of existence itself. Obtain the &aSplit Soul Katana&f and wield a weapon feared by even the most resilient sorcerers and cursed spirits."]
+			id: "0FCCEDCED653B9C1"
+			rewards: [
+				{
+					id: "634D27F6E1718A33"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "51EEBCF861315580"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7A blade that ignores the flesh"
+			tasks: [{
+				id: "3868AAF6ABEB180A"
+				item: {
+					Count: 1
+					id: "jujutsucraft:split_soul_katana"
+					tag: {
+						CursePower: 10.0d
+						Damage: 0
+						Power: 0.25d
+						Range: 0.25d
+						Reach: 0.25d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eSplit Soul Katana"
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			description: ["&fThe cursed dagger known as &aSupreme Martial Solution&f is said to embody the ruthless precision of &aRyomen Sukuna&f. &fForged to deliver lethal strikes infused with immense cursed energy, this weapon favors decisive execution over prolonged combat. Obtain the &aSupreme Martial Solution&f and wield a blade worthy of the King of Curses."]
+			id: "3D3F7338D8E7B32F"
+			rewards: [
+				{
+					id: "70B06ADEF738B40F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "325B0DF65C8A5751"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7The King's hidden blade"
+			tasks: [{
+				id: "51C48C60BAE8FFB8"
+				item: {
+					Count: 1
+					id: "jujutsucraft:supreme_martial_solution"
+					tag: {
+						CursePower: 10.0d
+						Damage: 0
+						Knockback: -0.25d
+						Power: 0.1d
+						Reach: -0.125d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eSupreme Martial Solution"
+			x: -1.5d
+			y: -12.0d
+		}
+		{
+			description: [
+				"&fLong ago, the cursed weapon &aHiten&f was said to channel violent lightning born from concentrated cursed energy."
+				"&fForged to pierce both flesh and spirit, &aHiten&f amplifies the wielder's power and unleashes devastating electrical strikes upon impact. Obtain &aHiten&f and prove you are worthy of wielding a weapon feared by sorcerers and cursed spirits alike."
+			]
+			id: "05157596B69E861B"
+			rewards: [
+				{
+					id: "348369CA03090349"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "3F02D23A4D840D97"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7The storm sealed in steel"
+			tasks: [{
+				id: "4439679032DF68F5"
+				item: {
+					Count: 1
+					id: "jujutsucraft:hiten"
+					tag: {
+						CursePower: 10.0d
+						Damage: 0
+						Power: 0.25d
+						Range: 0.25d
+						Reach: 0.25d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eHiten, Spear of Calamity"
+			x: -4.5d
+			y: -12.0d
+		}
+		{
+			description: ["&fThe special-grade cursed tool known as &aPlayful Cloud&f is unique it contains no innate cursed technique of its own. Instead, its destructive power scales directly with the physical strength of its wielder, turning raw force into overwhelming impact. Obtain &aPlayful Cloud&f and prove that sheer physical might can rival even the most refined cursed techniques."]
+			id: "3932A6C8CF8D30A5"
+			rewards: [
+				{
+					id: "12467068B45C1224"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "226B2CED09081C5B"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Power without cursed technique"
+			tasks: [{
+				id: "7DDCEE0636E46616"
+				item: {
+					Count: 1
+					id: "jujutsucraft:playful_cloud"
+					tag: {
+						CursePower: 10.0d
+						Damage: 0
+						GeckoLibID: 5L
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&ePlayful Cloud"
+			x: -4.5d
+			y: -10.5d
+		}
+		{
+			description: ["&fThe &aBlack Rope&f is a rare cursed tool capable of disrupting and interfering with cursed techniques upon contact. Woven over time with special rituals, its fibers unravel cursed energy structures, making even overwhelming abilities unstable. Obtain the &aBlack Rope&f and wield a weapon designed to challenge techniques thought to be untouchable."]
+			id: "4340E1996AC70CD4"
+			rewards: [
+				{
+					id: "5DC64516CAD13ADD"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "401E96803A3018BE"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Threads that disrupt infinity"
+			tasks: [{
+				id: "6EBBB1758C39F9E6"
+				item: {
+					Count: 1
+					id: "jujutsucraft:black_rope"
+					tag: {
+						CursePower: 10.0d
+						Damage: 0
+						GeckoLibID: 6L
+						color1: "0.0150798421018279 0.0150798421018279 0.0150798421018279 1"
+						color2: "0.0150798421018279 0.0150798421018279 0.0150798421018279 1"
+						slash_color: "slash_black"
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eBlack Rope"
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			description: ["&fThe &aSword of Extermination&f is a sacred blade associated with the divine shikigami &aMahoraga&f. Imbued with purifying energy, the sword is especially lethal against cursed spirits, striking with power meant to erase corruption itself. Obtain the &aSword of Extermination&f and wield a weapon forged for absolute extermination."]
+			id: "6A140AEEE3346B6E"
+			rewards: [
+				{
+					id: "2CE4D807D7510D71"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "07A23BB3499C04BE"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Blade of divine eradication"
+			tasks: [{
+				id: "0CBABCBC87ED8023"
+				item: {
+					Count: 1
+					id: "jujutsucraft:sword_of_extermination"
+					tag: {
+						CursePower: -10.0d
+						Damage: 0
+						Power: 0.125d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eSword of Extermination"
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			description: ["&fObtain &aYuta Okkotsu's Sword&f, a blade overflowing with immense cursed energy and capable of channeling copied techniques through its strikes."]
+			id: "6C232BFAB08D9498"
+			rewards: [
+				{
+					id: "27A8670A4FE1C91F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "40CE3BB7DE8904D2"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Special grade katana"
+			tasks: [{
+				id: "16826FE2B9547417"
+				item: {
+					Count: 1
+					id: "jujutsucraft:sword_okkotsu_yuta"
+					tag: {
+						CursePower: 7.0d
+						Damage: 0
+						Power: 0.125d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Yuta Okkotsu's Sword"
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			description: ["&fAcquire the &aNyoi Staff&f, a mystical weapon capable of extending at will and crushing opponents with overwhelming force."]
+			id: "0545223B6AEF2B85"
+			rewards: [
+				{
+					id: "7090B9AC7BA67B36"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "5F7CE27C6434FCEE"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Cursed extending staff"
+			tasks: [{
+				id: "0EE0854E969EFAF3"
+				item: {
+					Count: 1
+					id: "jujutsucraft:nyoi_staff"
+					tag: {
+						CursePower: 7.0d
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Nyoi Staff"
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			description: ["&fObtain &aGaruda&f, the powerful shikigami weapon that amplifies physical attacks with devastating cursed energy."]
+			id: "6011F127755F861D"
+			rewards: [
+				{
+					id: "2F1E77E2A9C62FBB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "39813CA376D2D532"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Shikigami weapon"
+			tasks: [{
+				id: "6A6A6B7922531CFB"
+				item: {
+					Count: 1
+					id: "jujutsucraft:garuda_item"
+					tag: {
+						CursePower: 7.0d
+						Power: 0.25d
+						Range: 0.25d
+						Reach: 0.25d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Garuda"
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			description: ["&fClaim the &aDragon Bone&f, a blade capable of storing and releasing cursed energy in explosive bursts."]
+			id: "2565B03FF056169B"
+			rewards: [
+				{
+					id: "24B8CBED4FC4B5D6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "60A3F63B0ECF7F6B"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Energy absorbing blade"
+			tasks: [{
+				id: "2B47485E890CD3AD"
+				item: {
+					Count: 1
+					id: "jujutsucraft:dragon_bone"
+					tag: {
+						CursePower: 7.0d
+						Damage: 0
+						Power: 0.125d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Dragon Bone"
+			x: -6.0d
+			y: -9.0d
+		}
+		{
+			description: ["&fWield &aBlazing Courage&f, a weapon engulfed in intense flames that burns both body and soul."]
+			id: "71924760B7254046"
+			rewards: [
+				{
+					id: "330D359F63F55C67"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "52A89523691EC5F3"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Flaming cursed blade"
+			tasks: [{
+				id: "4F91E48223501C35"
+				item: {
+					Count: 1
+					id: "jujutsucraft:blazing_courage"
+					tag: {
+						CursePower: 5.0d
+						Damage: 0
+						Power: 0.125d
+						Reach: 0.75d
+						color1: "0.596802963477317 0.596802963477317 0.877108909611077 1"
+						color2: "0.596802963477317 0.596802963477317 0.877108909611077 1"
+						color3: "jujutsucraft:particle_curse_power_blue"
+						slash_color: "slash_flame_blue"
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Blazing Courage"
+			x: -3.0d
+			y: -9.0d
+		}
+		{
+			description: ["&fSecure the &aFester Life Blade&f, a weapon that corrodes anything it cuts with festering cursed energy."]
+			id: "3EFC4B352B32E3CD"
+			rewards: [
+				{
+					id: "0B351A62691075FB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "1DDCCC1681832A72"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Corrosive cursed edge"
+			tasks: [{
+				id: "76EEBFD83FEEB3DA"
+				item: {
+					Count: 1
+					id: "jujutsucraft:fester_life_blade"
+					tag: {
+						CursePower: 7.0d
+						Damage: 0
+						Power: 0.125d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Fester Life Blade"
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			description: ["&fObtain &aKusakabe's Sword&f, a refined weapon wielded with mastery and precision."]
+			id: "53BB69439418712F"
+			rewards: [
+				{
+					id: "7A9FFBD979744785"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "4E1F3BF0B56D2988"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Disciplined sorcerer blade"
+			tasks: [{
+				id: "525388B267EA79D8"
+				item: {
+					Count: 1
+					id: "jujutsucraft:sword_kusakabe"
+					tag: {
+						CursePower: 5.0d
+						Damage: 0
+						Power: 0.125d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Kusakabe's Sword"
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			description: ["&fAcquire &aMei Mei's Axe&f, a heavy weapon designed to finish battles with brutal efficiency."]
+			id: "0FBF4D2BFFCF31EE"
+			rewards: [
+				{
+					id: "056E2DF3D60EDCD3"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "2FC7255F252BA28B"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Executioner's weapon"
+			tasks: [{
+				id: "2118FA76F8C633A2"
+				item: {
+					Count: 1
+					id: "jujutsucraft:mei_mei_axe"
+					tag: {
+						CursePower: 5.0d
+						Damage: 0
+						Power: 0.375d
+						Range: 0.25d
+						Reach: 0.25d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Mei Mei's Axe"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			description: ["&fUnlock &aItadori's Arm&f, a manifestation of overwhelming cursed power fused into raw physical strength."]
+			id: "5A6908D299413AB1"
+			rewards: [
+				{
+					id: "13EBFFB11120E5A0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "07FA302C7810F1ED"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Cursed transformation"
+			tasks: [{
+				id: "4ADD18CE34D17510"
+				item: {
+					Count: 1
+					id: "jujutsucraft:itadori_arm"
+					tag: {
+						CursePower: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Itadori's Arm"
+			x: 1.5d
+			y: -9.0d
+		}
+		{
+			description: ["&fClaim the &aGavel&f, a weapon symbolizing absolute judgment capable of delivering crushing verdicts."]
+			id: "38B12EEE929D0C13"
+			rewards: [
+				{
+					id: "35E37B05BBA2471B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "61555F08C2F47314"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Judgment hammer"
+			tasks: [{
+				id: "1945934219217796"
+				item: {
+					Count: 1
+					id: "jujutsucraft:gavel"
+					tag: {
+						CursePower: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Gavel"
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			description: ["&fTake possession of &aOgi's Sword&f, a traditional weapon of lethal Zenin technique."]
+			id: "061CB542D765FC8D"
+			rewards: [
+				{
+					id: "5DC8AA26F51BFA30"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "5548248AC9D3C0CA"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Zenin clan blade"
+			tasks: [{
+				id: "08DCF651201AAA55"
+				item: {
+					Count: 1
+					id: "jujutsucraft:sword_ogi"
+					tag: {
+						CursePower: 5.0d
+						Damage: 0
+						Power: 0.125d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Ogi's Sword"
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			description: ["&fObtain &aNanami's Weapon&f, a blade perfectly suited for precise ratio strikes."]
+			id: "5393459E14D0BCEE"
+			rewards: [
+				{
+					id: "2A55C08E01F5FE54"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "60C7C6B651A9CF56"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Ratio technique tool"
+			tasks: [{
+				id: "2B93FF48EEB35E0C"
+				item: {
+					Count: 1
+					id: "jujutsucraft:weapon_nanami"
+					tag: {
+						CursePower: 5.0d
+						Damage: 0
+						Power: 0.125d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Nanami's Weapon"
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			description: ["&fWield the &aBlack Sword&f, a shadowy weapon infused with dense cursed energy."]
+			id: "70A021D2EDDAC0C0"
+			rewards: [
+				{
+					id: "023EA45DC3B5DC4C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "084F70A682F61607"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Cursed dark blade"
+			tasks: [{
+				id: "11F05B0042CA37F4"
+				item: {
+					Count: 1
+					id: "jujutsucraft:sword_black"
+					tag: {
+						CursePower: 3.0d
+						Damage: 0
+						Power: 0.125d
+						color1: "0.012711290692966138 0.012711290692966138 0.012711290692966138 1"
+						color2: "0.012711290692966138 0.012711290692966138 0.012711290692966138 1"
+						slash_color: "slash_black"
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Black Sword"
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			description: ["&fSecure the &aNaginata&f, a long reaching weapon ideal for disciplined combat."]
+			id: "78EDE16777196F2F"
+			rewards: [
+				{
+					id: "6D341B4DA4D60681"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "419DC68954572B8C"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Polearm of precision"
+			tasks: [{
+				id: "0AEFA3FF94198783"
+				item: {
+					Count: 1
+					id: "jujutsucraft:naginata"
+					tag: {
+						CursePower: 3.0d
+						Damage: 0
+						Power: 0.25d
+						Range: 0.25d
+						Reach: 0.25d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Naginata"
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			description: ["&fClaim the &aOption Sword&f, a versatile blade suited for multiple combat scenarios."]
+			id: "20F73CB4BD92B257"
+			rewards: [
+				{
+					id: "16A8EBDACF78BA0A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "72B322121630C096"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Adaptive blade"
+			tasks: [{
+				id: "381DC1618D383A76"
+				item: {
+					Count: 1
+					id: "jujutsucraft:sword_option"
+					tag: {
+						CursePower: 3.0d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Option Sword"
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			description: ["&fObtain the &aScissors&f, a weapon capable of slicing through both matter and cursed techniques."]
+			id: "14A7EDEAC81B0B28"
+			rewards: [
+				{
+					id: "118C81F4CB75529B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "3D322E99D86094E2"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Cursed cutting tool"
+			tasks: [{
+				id: "0EC81218FBA6674C"
+				item: {
+					Count: 1
+					id: "jujutsucraft:scissors"
+					tag: {
+						CursePower: 3.0d
+						Damage: 0
+						Knockback: -0.25d
+						Power: 0.1d
+						Reach: -0.125d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Scissors"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: ["&fAcquire the &aClaws&f, feral weapons designed for relentless close combat."]
+			id: "3E7A5D84FF3EAC96"
+			rewards: [
+				{
+					id: "53B4563039951260"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "57F9BBE257C018A0"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Savage cursed talons"
+			tasks: [{
+				id: "5873FED7230ED17E"
+				item: {
+					Count: 1
+					id: "jujutsucraft:claws"
+					tag: {
+						CursePower: 3.0d
+						Damage: 0
+						Knockback: -0.25d
+						Power: 0.1d
+						Reach: -0.125d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Claws"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			description: ["&fClaim the &aSickle&f, a curved weapon meant to reap opponents swiftly."]
+			id: "7A62C272F9682E63"
+			rewards: [
+				{
+					id: "24B543CAECABC9A4"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "01C1276A83773403"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Reaper's cursed blade"
+			tasks: [{
+				id: "4ED767636069680D"
+				item: {
+					Count: 1
+					id: "jujutsucraft:sickle"
+					tag: {
+						CursePower: 3.0d
+						Damage: 0
+						Knockback: -0.25d
+						Power: 0.1d
+						Reach: -0.125d
+						color1: "0.0873037600897114 0.0873037600897114 0.0873037600897114 1"
+						color2: "0.0873037600897114 0.0873037600897114 0.0873037600897114 1"
+						slash_color: "slash_black"
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Sickle"
+			x: 3.0d
+			y: -7.5d
+		}
+		{
+			description: ["&fObtain the &aHarisen&f, a seemingly harmless fan turned into a cursed striking tool."]
+			id: "5E210D49C0285E73"
+			rewards: [
+				{
+					id: "3A00EE8C5E1A58D6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "7029E64FDB4152C3"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Deceptive fan weapon"
+			tasks: [{
+				id: "28C4A71F612E0A3D"
+				item: {
+					Count: 1
+					id: "jujutsucraft:harisen"
+					tag: {
+						CursePower: 2.0d
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Harisen"
+			x: -10.5d
+			y: -6.0d
+		}
+		{
+			description: ["&fSecure &aMahito's Hand&f, a grotesque weapon capable of twisting the essence of its victims."]
+			id: "4E8CF28FA17FB7C3"
+			rewards: [
+				{
+					id: "102F76F6CBF98BFE"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "5952B9C7C931F977"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Soul distorting limb"
+			tasks: [{
+				id: "78B87FDE9EC95F7D"
+				item: {
+					Count: 1
+					id: "jujutsucraft:mahito_hand_2"
+					tag: {
+						CursePower: 2.0d
+						Damage: 0
+						Knockback: -0.25d
+						Power: 0.1d
+						Reach: -0.125d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Mahito's Hand"
+			x: -9.0d
+			y: -6.0d
+		}
+		{
+			description: ["&fSecure &aMahito's Hand&f, a grotesque weapon capable of twisting the essence of its victims."]
+			id: "7EDE2AC9C92C2B67"
+			rewards: [
+				{
+					id: "64263C15F6701CB1"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "0FA6CB666E8AC48C"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Soul distorting limb"
+			tasks: [{
+				id: "0B6989D30A720878"
+				item: {
+					Count: 1
+					id: "jujutsucraft:mahito_hand_1"
+					tag: {
+						CursePower: 2.0d
+						Damage: 0
+						GeckoLibID: 98L
+						Reach: 0.75d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Mahito's Hand"
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			description: ["&fAcquire the &aPistol&f, a ranged weapon enhanced with cursed energy."]
+			id: "52FFAA9B4272B003"
+			rewards: [
+				{
+					id: "46E1E0E326314C9D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "7AD883C29EC4A3D5"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Cursed firearm"
+			tasks: [{
+				id: "0684F8FBCDC95102"
+				item: {
+					Count: 1
+					id: "jujutsucraft:pistol"
+					tag: {
+						CursePower: 2.0d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Pistol"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			description: ["&fObtain the &aKnife&f, a compact weapon perfect for swift lethal strikes."]
+			id: "05B3877D3C2DCA67"
+			rewards: [
+				{
+					id: "679777143846F44B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "315D535033B36D79"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Silent cursed blade"
+			tasks: [{
+				id: "09445BE81A74401E"
+				item: {
+					Count: 1
+					id: "jujutsucraft:knife"
+					tag: {
+						CursePower: 2.0d
+						Damage: 0
+						Knockback: -0.25d
+						Power: 0.1d
+						Reach: -0.125d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Knife"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			description: ["&fClaim &aShigemo's Sword&f, a weapon tied to unpredictable fortune in battle."]
+			id: "626417599F7505B9"
+			rewards: [
+				{
+					id: "1A553AD96CF62D82"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "39A52F98721AF470"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Luck-bound blade"
+			tasks: [{
+				id: "6E090F8034FA12F5"
+				item: {
+					Count: 1
+					id: "jujutsucraft:sword_shigemo"
+					tag: {
+						CursePower: 2.0d
+						Damage: 0
+						Power: 0.125d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Shigemo's Sword"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			description: ["&fAcquire the &aG Staff&f, a durable weapon capable of channeling cursed strikes."]
+			id: "7E03DBD7A9274C6F"
+			rewards: [
+				{
+					id: "70B262D7B5523ADE"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "2DD66C7A59287015"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Reinforced cursed staff"
+			tasks: [{
+				id: "547B87315C5CCECC"
+				item: {
+					Count: 1
+					id: "jujutsucraft:g_staff"
+					tag: {
+						CursePower: 2.0d
+						Damage: 0
+						Power: 0.125d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain G Staff"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			description: ["&fObtain the &aBroom&f, a unique cursed tool allowing aerial mobility in combat."]
+			id: "1CA09E9954769814"
+			rewards: [
+				{
+					id: "758CD2CBEA2ECF5F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "10E552EDF5AAC657"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Flying cursed tool"
+			tasks: [{
+				id: "3730A563B15E98A7"
+				item: {
+					Count: 1
+					id: "jujutsucraft:broom"
+					tag: {
+						CursePower: 2.0d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Broom"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			description: ["&fClaim the &aSlaughter Demon&f, a massive blade built purely for destruction."]
+			id: "504AE3FAF1CCD509"
+			rewards: [
+				{
+					id: "4EA4594945DC5729"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "007E5626EFC1D947"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Brutal cursed cleaver"
+			tasks: [{
+				id: "1ACE9623AE0A7AB5"
+				item: {
+					Count: 1
+					id: "jujutsucraft:slaughter_demon"
+					tag: {
+						CursePower: 2.0d
+						Damage: 0
+						Knockback: -0.25d
+						Power: 0.1d
+						Reach: -0.125d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Slaughter Demon"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			description: ["&fAcquire the &aHammer&f, a blunt weapon that crushes enemies with explosive force."]
+			id: "2B3B7F908FFF911F"
+			rewards: [
+				{
+					id: "6D2FDE5BA8D496C3"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "797AF05820574C91"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Impact cursed weapon"
+			tasks: [{
+				id: "4765ECD98F326AC0"
+				item: {
+					Count: 1
+					id: "jujutsucraft:hammer"
+					tag: {
+						CursePower: 2.0d
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Hammer"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			description: ["&fObtain &aMiwa Kasumi's Sword&f, a katana wielded with disciplined technique and defensive mastery."]
+			id: "004B1FBBAEF0C385"
+			rewards: [
+				{
+					id: "73891CFF620D417D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "4CED1C1E7AD9F42C"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Simple domain blade"
+			tasks: [{
+				id: "2B1405F1AF84A10F"
+				item: {
+					Count: 1
+					id: "jujutsucraft:sword_miwa_kasumi"
+					tag: {
+						CursePower: 1.0d
+						Damage: 0
+						Power: 0.125d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Miwa Kasumi's Sword"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			description: ["&fClaim the &aKitchen Knife&f, a deceptively simple blade infused with lethal cursed energy."]
+			id: "3E8D8176C3B6305D"
+			rewards: [
+				{
+					id: "130F46923F40A403"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "5924CDA1E2B25E14"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Cursed culinary blade"
+			tasks: [{
+				id: "50B913AB369A27B0"
+				item: {
+					Count: 1
+					id: "jujutsucraft:kitchen_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Kitchen Knife"
+			x: -4.2d
+			y: -4.2d
+		}
+		{
+			description: ["&fSecure &aHanami's Hand&f, a manifestation of natural cursed power capable of overwhelming force."]
+			id: "767DDBDC20837029"
+			rewards: [
+				{
+					id: "10C6AE49FE708761"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "13110DB33E5B5E91"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			subtitle: "&7Nature's cursed limb"
+			tasks: [{
+				id: "0C6320D97BB535B7"
+				item: {
+					Count: 1
+					id: "jujutsucraft:hanami_hand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eObtain Hanami's Hand"
+			x: -1.7999999999999998d
+			y: -4.2d
+		}
+	]
+	title: "Chapter 2"
+}

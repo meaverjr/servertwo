@@ -1,0 +1,1374 @@
+{
+	autofocus_id: "546F8BD6C2872E6B"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1"
+	group: "43B2022E26682B47"
+	id: "03023DB4AF22EFF5"
+	images: [{
+		alpha: 130
+		height: 30.0d
+		image: "kubejs:textures/images/tecnicas.png"
+		rotation: 0.0d
+		width: 50.0d
+		x: -1.0d
+		y: -2.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&fWelcome to the hidden world of &dJujutsu&f, where &ccurses&f roam freely and only those who master &5Cursed Energy&f can survive.\","
+				"\"&fTo begin your journey, you must obtain the &aCursed Technique Changer&f, a forbidden tome that allows you to choose and wield the techniques of legendary sorcerers.\","
+				"\"&fThis book is your first step toward power, identity, and destiny. Without it, you are merely human… with it, you become something more."
+			]
+			icon: {
+				Count: 1
+				id: "jujutsucraft:cursed_technique_changer"
+				tag: { }
+			}
+			id: "4C666E4CB3B4514D"
+			rewards: [{
+				id: "71FE13378EECB036"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "&7Your path as a Sorcerer begins here"
+			tasks: [{
+				id: "2FF419003D0FE4DA"
+				item: {
+					Count: 1
+					id: "jujutsucraft:cursed_technique_changer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eAwakening of Cursed Energy"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			description: ["&fEmbody the will of &aHanami&f. Obtain the &aDisaster Plants Technique&f and harness the power of nature to overwhelm and restrain your foes. Endurance and control define this curse."]
+			id: "4E493EB4F334DE21"
+			rewards: [{
+				id: "5CD51A488D3109AC"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "&7Nature's wrath unleashed"
+			tasks: [{
+				advancement: "jujutsucraft:skill_hanami"
+				criterion: ""
+				id: "5B1D9F4946995341"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eDisaster Plants"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			description: ["&fFollow the legacy of &aMegumi Fushiguro&f. Obtain the &aTen Shadows Technique&f and summon powerful Shikigami to fight alongside you. Adaptability and strategy will guide your battles."]
+			icon: {
+				Count: 1
+				id: "jujutsucraft:hair_fushiguro_megumi_helmet"
+				tag: { }
+			}
+			id: "1DC5BA4379DFED4B"
+			rewards: [{
+				id: "162BACF66A92523F"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "&7Command the Shikigami"
+			tasks: [{
+				advancement: "jujutsucraft:skill_ten_shadows_technique"
+				criterion: ""
+				id: "6D2223E09B62C81F"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eTen Shadows Technique"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			description: ["&fEmbrace the power of &aChoso&f. Obtain the &aBlood Manipulation Technique&f and bend your own blood into lethal weapons. Mastery of sacrifice and control will shape your strength."]
+			icon: {
+				Count: 1
+				id: "jujutsucraft:clothes_choso_chestplate"
+				tag: { }
+			}
+			id: "36938D50C282AEF2"
+			rewards: [{
+				id: "43E697C084AD2D1F"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "&7Control the flow of battle"
+			tasks: [{
+				advancement: "jujutsucraft:skill_blood_manipulation"
+				criterion: ""
+				id: "6522AA937980B1E7"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eBlood Manipulation"
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			description: ["&fWalk the path of &aSuguru Geto&f. Obtain the &aCursed Spirit Manipulation Technique&f and command defeated curses as your own army. Strategy and domination define this power."]
+			icon: {
+				Count: 1
+				id: "jujutsucraft:clothes_geto_chestplate"
+				tag: { }
+			}
+			id: "59766E03BF2145B4"
+			rewards: [{
+				id: "15F2EF8F8D8BC753"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "&7Command the cursed"
+			tasks: [{
+				advancement: "jujutsucraft:skill_geto"
+				criterion: ""
+				id: "1AC7F3FCBC22BF99"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eCursed Spirit Manipulation"
+			x: -4.5d
+			y: -10.0d
+		}
+		{
+			description: ["&fChannel the relentless will of &aYuji Itadori&f. Obtain the &aDivergent Fist Technique&f and overwhelm your enemies with explosive cursed energy strikes. Growth through battle defines this path."]
+			id: "5E47431719BBE7F4"
+			rewards: [{
+				id: "4FA3C75459B159A7"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "&7Break your limits"
+			tasks: [{
+				advancement: "jujutsucraft:skill_itadori"
+				criterion: ""
+				id: "33A534AD63841BF0"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eDivergent Fist"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: ["&fAwaken the destructive force of &aJogo&f. Obtain the &aDisaster Flames Technique&f and unleash volcanic devastation upon your enemies. Pure destruction fuels this cursed power."]
+			icon: {
+				Count: 1
+				id: "jujutsucraft:clothes_jogo_chestplate"
+				tag: { }
+			}
+			id: "68CF8D46E9F2B113"
+			rewards: [{
+				id: "21CFA28DA62BFAAF"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "&7Incinerate everything"
+			tasks: [{
+				advancement: "jujutsucraft:skill_jogo"
+				criterion: ""
+				id: "5425BBB49DD8830A"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eDisaster Flames"
+			x: 4.5d
+			y: -10.0d
+		}
+		{
+			description: ["&fAccept the overwhelming power of &aYuta Okkotsu&f. Obtain the &aCopy Technique&f and wield immense cursed energy beyond ordinary limits. Power and responsibility walk together on this path."]
+			icon: {
+				Count: 1
+				id: "jujutsucraft:uniform_okkotsu_chestplate"
+				tag: { }
+			}
+			id: "1A6ED2FE21A7DE1E"
+			rewards: [{
+				id: "3A33781F7397C2A0"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "&7Bound by cursed love"
+			tasks: [{
+				advancement: "jujutsucraft:skill_copy"
+				criterion: ""
+				id: "259DFCD31B569973"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eCopy Technique"
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			description: ["&fStep into the realm of the strongest, &aSatoru Gojo&f. Obtain the &aLimitless Technique&f and manipulate space itself through Infinity. Only those worthy may wield such absolute power."]
+			id: "44CCE43125B45D37"
+			rewards: [{
+				id: "00C146599CB8ECCE"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "&7Infinity between you and death"
+			tasks: [{
+				advancement: "jujutsucraft:skill_gojo"
+				criterion: ""
+				id: "02E87181EAB5C915"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eLimitless Technique"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			description: ["&fEmbrace the reign of &aRyomen Sukuna&f. Obtain the &aMalevolent Shrine Technique&f and unleash merciless devastation upon the battlefield. Sovereignty and destruction define the King of Curses."]
+			icon: {
+				Count: 1
+				id: "jujutsucraft:clothes_sukuna_fushiguro_chestplate"
+				tag: { }
+			}
+			id: "51CFFC0C88C27AFF"
+			rewards: [{
+				id: "74F4B3759E20640D"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "&7The king awakens"
+			tasks: [{
+				advancement: "jujutsucraft:skill_sukuna"
+				criterion: ""
+				id: "175612A5D247EBD8"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eMalevolent Shrine"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			description: ["&fYou have chosen the path of &aKento Nanami&f. Obtain the &aRatio Technique&f and master calculated strikes that exploit your enemy's weakest points. Precision and discipline define a true professional."]
+			icon: {
+				Count: 1
+				id: "jujutsucraft:clothes_nanami_chestplate"
+				tag: { }
+			}
+			id: "37D0C949518D511C"
+			rewards: [{
+				id: "420DEDB24506EA17"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "&7Walk the path of precision"
+			tasks: [{
+				advancement: "jujutsucraft:skill_nanami"
+				criterion: ""
+				id: "31D2DEE72A1FBDA3"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eRatio Technique"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C666E4CB3B4514D"]
+			description: ["&fWithin the world of curses, survival demands sacrifice. Obtain and consume the &aInsect&f to permanently remove your need for food. &fBy devouring the &aInsect&f, you abandon mortal hunger and free your focus entirely for combat. No more distractions only cursed energy and battle remain."]
+			id: "2A29C95C7884B548"
+			rewards: [{
+				id: "10DA9F3D08D32695"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "&7Devour the forbidden"
+			tasks: [{
+				id: "3CEE62CA24EF6627"
+				item: {
+					Count: 1
+					id: "jujutsucraft:item_insect"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eAbandon Mortal Needs"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4C666E4CB3B4514D"]
+			description: ["&fYou have awakened the &aSix Eyes&f, but true power lies in mastery. Obtain &aMaster Six Eyes&f and achieve flawless cursed energy perception and efficiency. Your control becomes nearly perfect, minimizing waste and maximizing every technique you unleash."]
+			id: "32AE0F8E528F699B"
+			rewards: [
+				{
+					id: "09DAAC89C9EF1A3D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5B14AA23DC9EFB9C"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:night_vision"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&7Absolute perception"
+			tasks: [{
+				id: "4DB2B03048895744"
+				item: {
+					Count: 1
+					id: "jujutsucraft:item_master_six_eyes"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eMaster Six Eyes"
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4C666E4CB3B4514D"]
+			description: [
+				"&fSome sorcerers rely purely on overwhelming physical prowess. Obtain &aCompletely Physical Gifted&f and elevate your body beyond normal human capability."
+				"&fSpeed, strength, and resilience become your greatest weapons in battle."
+			]
+			id: "047E5924E188E75E"
+			rewards: [
+				{
+					id: "7A74E7898F8B7645"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "423B09E534BF8DE9"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&7Transcend human limits"
+			tasks: [{
+				id: "1B75E3DB09F904C9"
+				item: {
+					Count: 1
+					id: "jujutsucraft:item_master_physical_gifted"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eCompletely Physical Gifted"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4C666E4CB3B4514D"]
+			description: ["&fDomains are overwhelming, but there exists a counter. Obtain &aMaster Simple Domain&f and learn to neutralize enemy Domain Expansions. Through discipline and precision, you carve a space where their absolute power cannot fully dominate."]
+			id: "060FA7CE5C86B01A"
+			rewards: [
+				{
+					id: "43A5915F79D1BD5D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4C6015D200A7949C"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&7A defense against the absolute"
+			tasks: [{
+				id: "73CD2FF696B37C71"
+				item: {
+					Count: 1
+					id: "jujutsucraft:item_master_simple_domain"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eMaster Simple Domain"
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4C666E4CB3B4514D"]
+			description: ["&fA technique passed through tradition and discipline. Obtain &aMaster Falling Blossom Emotion&f and perfect a defensive counter against Domain techniques. With elegance and timing, you repel attacks that would otherwise guarantee defeat."]
+			id: "021BE2E326872026"
+			rewards: [
+				{
+					id: "4C30CB99C7F7C5BD"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "08579181A6286274"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&7Refined defensive art"
+			tasks: [{
+				id: "2E68E73D88121307"
+				item: {
+					Count: 1
+					id: "jujutsucraft:item_master_falling_blossom_emotion"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eMaster Falling Blossom Emotion"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4C666E4CB3B4514D"]
+			description: ["&fOnly elite sorcerers can manifest their innate domain. Obtain &aMaster Domain Expansion&f and fully realize your cursed territory. Within your Domain, your techniques become absolute, and your enemies stand at a severe disadvantage."]
+			id: "20F1C663A846773A"
+			rewards: [
+				{
+					id: "3B1F1BC84FAE182A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "0C96654FE0309ECF"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:night_vision"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&7Manifest your inner world"
+			tasks: [{
+				id: "73550F08E4CAB4F8"
+				item: {
+					Count: 1
+					id: "jujutsucraft:item_master_domain_expansion"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eMaster Domain Expansion"
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4C666E4CB3B4514D"]
+			description: [
+				"&fA refined extension of cursed technique control. Obtain &aMaster Domain Amplification&f and enhance your offensive pressure against even the strongest opponents."
+				"&fBy coating yourself in amplified cursed energy, you break through defenses that once seemed untouchable."
+			]
+			id: "59729E431E527998"
+			rewards: [
+				{
+					id: "40C5F9C65C4767C3"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "17F8D92386C1F155"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&7Overwhelm through enhancement"
+			tasks: [{
+				id: "6335020F8FE54B77"
+				item: {
+					Count: 1
+					id: "jujutsucraft:item_master_domain_amplification"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eMaster Domain Amplification"
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4C666E4CB3B4514D"]
+			description: [
+				"&fFew can invert cursed energy to heal instead of harm. Obtain &aMaster Reverse Cursed Technique&f and learn to restore yourself in the midst of battle."
+				"&fThrough mastery, you transform negative energy into life, prolonging your survival against overwhelming odds."
+			]
+			id: "6C5D176894ED68C4"
+			rewards: [
+				{
+					id: "39906DB583D92AF2"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6BC18BA3930527E7"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7587D77D73C16DF7"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&7Turn destruction into restoration"
+			tasks: [{
+				id: "4D160CC6821E1A99"
+				item: {
+					Count: 1
+					id: "jujutsucraft:item_master_reverse_cursed_technique"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eMaster Reverse Cursed Technique"
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5E47431719BBE7F4"]
+			description: ["&fThrough relentless combat and raw determination, you begin to walk the path of &aYuji Itadori&f. Prove your strength and earn the title of &aGrade 4 Sorcerer&f. This rank marks your recognition as a true Jujutsu Sorcerer, capable of confronting minor curses and surviving the dangers of the hidden world."]
+			id: "7CE44E49B0B1C820"
+			rewards: [
+				{
+					id: "3847CA942E074D1F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48C39ACC0D317A99"
+					table_id: 6874649143691961077L
+					type: "loot"
+				}
+			]
+			subtitle: "&7The first official step"
+			tasks: [{
+				advancement: "jujutsucraft:skill_divergent_fist"
+				criterion: ""
+				id: "3BC05063E96ED6D9"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eGrade 4 Sorcerer"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19FB54902D314B99"]
+			description: ["&fAfter consuming 6 additional &aDeath Paintings&f, your cursed blood mutates beyond simple precision and enters a destructive state. You now command &aSupernova&f, detonating compressed blood in a devastating explosion that overwhelms your enemies."]
+			icon: {
+				Count: 1
+				id: "minecraft:nether_star"
+				tag: { }
+			}
+			id: "22D5B59A8C0FA912"
+			rewards: [{
+				id: "6152B64903985B1B"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "&7Blood erupts with overwhelming force"
+			tasks: [{
+				advancement: "jujutsucraft:skill_piercing_blood_itadori"
+				criterion: ""
+				id: "3A45184B5FBCB3D0"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eMastering Supernova"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E47431719BBE7F4"]
+			description: ["&fBy consuming 3 &aDeath Paintings&f, your control over cursed blood begins to stabilize and sharpen. Through this ritual, you unlock &aPiercing Blood&f, condensing your blood into a high velocity projectile capable of piercing even reinforced defenses."]
+			icon: {
+				Count: 1
+				id: "jujutsucraft:death_painting"
+				tag: {
+					CursePower: 1.0d
+				}
+			}
+			id: "19FB54902D314B99"
+			rewards: [
+				{
+					id: "26C8BDEC8A295EAB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "0034E23937E2CBC8"
+					item: {
+						Count: 1
+						id: "jujutsucraft:death_painting"
+						tag: {
+							CursePower: 1.0d
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&7The first evolution of blood"
+			tasks: [{
+				advancement: "jujutsucraft:skill_supernova_itadori"
+				criterion: ""
+				id: "3AAAE1EC0916FE75"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eAwakening Piercing Blood"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E47431719BBE7F4"]
+			description: ["&fSomewhere in this world lies a fragment of absolute evil. Obtain a &aSukuna Finger&f, a cursed relic overflowing with malevolent energy. &fEven sealed, the &aSukuna Finger&f radiates immense power. Few can stand near it without feeling its oppressive presence."]
+			id: "4C5F91F27C39C4D5"
+			rewards: [
+				{
+					id: "54300F903A5A17C1"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "05E8270E1D6D9673"
+					item: {
+						Count: 1
+						id: "jujutsucraft:sukuna_finger"
+						tag: {
+							CursePower: 5.0d
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&7A fragment of the King"
+			tasks: [{
+				id: "614D21F16E328FAB"
+				item: {
+					Count: 1
+					id: "jujutsucraft:sukuna_finger"
+					tag: {
+						CursePower: 5.0d
+					}
+				}
+				type: "item"
+			}]
+			title: "&5&lQuest: &r&eCursed Relic"
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C5F91F27C39C4D5"]
+			description: ["&fPower demands sacrifice. Consume a &aSukuna Finger&f and allow its cursed energy to merge with your own. &fBy eating the &aSukuna Finger&f, you risk losing yourself… but gain access to a fragment of the King of Curses' overwhelming strength."]
+			id: "1BCFB377171562EA"
+			rewards: [
+				{
+					id: "51EC2ECF8E11461D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 2
+					id: "1BC1C4F2DBF77255"
+					item: {
+						Count: 1
+						id: "minecraft:golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&7A forbidden decision"
+			tasks: [{
+				advancement: "jujutsucraft:skill_dismantle"
+				criterion: ""
+				id: "536F0D34D6FB49FD"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eDevour the King’s Power"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E493EB4F334DE21"]
+			description: ["&fBy mastering the techniques of &aHanami&f and enduring fierce battles, you ascend to the rank of &aGrade 2 Sorcerer&f. &fYour cursed energy deepens like ancient roots, granting you greater resilience and the strength to confront increasingly dangerous opponents."]
+			icon: {
+				Count: 1
+				id: "jujutsucraft:hanami_hand"
+				tag: { }
+			}
+			id: "093BB478951A1802"
+			rewards: [
+				{
+					id: "38B292AC4E611BA0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1809ABB799B89507"
+					table_id: 6874649143691961077L
+					type: "loot"
+				}
+			]
+			subtitle: "&7The forest grows stronger"
+			tasks: [{
+				advancement: "jujutsucraft:skill_huge_roots"
+				criterion: ""
+				id: "4B9CEB49580F9D96"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eGrade 2 Sorcerer"
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["59766E03BF2145B4"]
+			description: ["&fBy mastering the power of &aSuguru Geto&f and refining your control over cursed spirits, you ascend to the rank of &aGrade 1 Sorcerer&f. &fThrough the &aCursed Spirit Manipulation Technique&f, you no longer fight alone  you command an army. Strategy and domination define your rise to true sorcerer authority."]
+			id: "4972B804600DA705"
+			rewards: [
+				{
+					id: "1E6824C886AE343D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F65D62495009D39"
+					table_id: 6874649143691961077L
+					type: "loot"
+				}
+			]
+			subtitle: "&7Commander of Curses"
+			tasks: [{
+				advancement: "jujutsucraft:skill_maximum_uzumaki"
+				criterion: ""
+				id: "2CAA35E9A732C2CD"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eGrade 1 Sorcerer"
+			x: -7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["68CF8D46E9F2B113"]
+			description: ["&fBy embracing the destructive flames of &aJogo&f, your cursed energy erupts with volcanic intensity, earning you recognition as a &aSemi-Grade 2 Sorcerer&f. &fYour mastery of the &aDisaster Flames Technique&f continues to grow, turning the battlefield into a blazing wasteland under your command."]
+			id: "642C09BD3D803A26"
+			rewards: [
+				{
+					id: "7E9FED440726B5C8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D7621F46C58D70C"
+					table_id: 6874649143691961077L
+					type: "loot"
+				}
+			]
+			subtitle: "&7Embers of catastrophe"
+			tasks: [{
+				advancement: "jujutsucraft:skill_disaster_flames"
+				criterion: ""
+				id: "6D5FCA2CC3373574"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eSemi-Grade 2 Sorcerer"
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["37D0C949518D511C"]
+			description: ["&fThrough discipline and calculated combat under the path of &aKento Nanami&f, you earn recognition as a &aGrade 2 Sorcerer&f. &fYour mastery of the &aRatio Technique&f allows you to systematically dismantle stronger curses with precision and efficiency worthy of a true professional."]
+			icon: {
+				Count: 1
+				id: "jujutsucraft:weapon_nanami"
+				tag: {
+					CursePower: 5.0d
+					Damage: 0
+					Power: 0.125d
+				}
+			}
+			id: "2D879DE16B505678"
+			rewards: [
+				{
+					id: "642E47322185904A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79290EAE5461AB7F"
+					table_id: 6874649143691961077L
+					type: "loot"
+				}
+			]
+			subtitle: "&7A professional rises"
+			tasks: [{
+				advancement: "jujutsucraft:skill_collapse"
+				criterion: ""
+				id: "4B8DB4A592CE1F65"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eGrade 2 Sorcerer"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1DC5BA4379DFED4B"]
+			description: ["&fTo truly inherit the power of &aMegumi Fushiguro&f, you must defeat the Shikigami &aNue&f in battle and prove your dominance. &fBy overcoming &aNue&f, you gain control over its lightning and speed, expanding the strength of the &aTen Shadows Technique&f under your command."]
+			icon: {
+				Count: 1
+				id: "jujutsucraft:sword_black"
+				tag: {
+					CursePower: 3.0d
+					Damage: 0
+					Power: 0.125d
+					color1: "0.20173171496616618 0.20173171496616618 0.20173171496616618 1"
+					color2: "0.20173171496616618 0.20173171496616618 0.20173171496616618 1"
+					slash_color: "slash_black"
+				}
+			}
+			id: "0F347DF5B7EAF969"
+			rewards: [
+				{
+					id: "3A1CA292EF721C0B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F9560919A32FE3F"
+					table_id: 6874649143691961077L
+					type: "loot"
+				}
+			]
+			subtitle: "&7Subdue the storm"
+			tasks: [{
+				advancement: "jujutsucraft:skill_nue"
+				criterion: ""
+				id: "3224422D71C6DAC8"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eTame the Thunder Beast"
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["36938D50C282AEF2"]
+			description: ["&fThrough relentless combat under the path of &aChoso&f, your control over cursed blood stabilizes and earns you recognition as a &aGrade 3 Sorcerer&f. &fYour mastery of the &aBlood Manipulation Technique&f grows sharper, allowing you to confront stronger curses with deadly precision."]
+			icon: {
+				Count: 1
+				id: "undergarden:blood_globule"
+				tag: { }
+			}
+			id: "02AB020C37E5122A"
+			rewards: [
+				{
+					id: "4E21F2871ECE2E75"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "365B4A242F645C20"
+					table_id: 6874649143691961077L
+					type: "loot"
+				}
+			]
+			subtitle: "&7Blood begins to awaken"
+			tasks: [{
+				advancement: "jujutsucraft:skill_flowing_red_scale"
+				criterion: ""
+				id: "5F1F4876BE89FD0E"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eGrade 3 Sorcerer"
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["02AB020C37E5122A"]
+			description: ["&fAs your cursed blood mutates and strengthens, you ascend further along the path of &aChoso&f and achieve the rank of &aSemi-Grade 2 Sorcerer&f. &fYour refined control over the &aBlood Manipulation Technique&f allows for more destructive and versatile applications in battle."]
+			id: "50FCA62EF2195F19"
+			rewards: [
+				{
+					id: "29EB1F44FEE4CD46"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C2598A470C47A46"
+					table_id: 6874649143691961077L
+					type: "loot"
+				}
+			]
+			subtitle: "&7Evolving through conflict"
+			tasks: [{
+				advancement: "jujutsucraft:skill_convergence"
+				criterion: ""
+				id: "7C99753F89E65879"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eSemi-Grade 2 Sorcerer"
+			x: -9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1A6ED2FE21A7DE1E"]
+			description: ["&fTo walk the path of &aYuta Okkotsu&f, you must fully manifest and control &aRika&f, the Queen of Curses bound to your power. &fBy mastering your bond with &aRika&f, you ascend to the rank of &aSemi-Grade 1 Sorcerer&f, wielding overwhelming cursed energy and unmatched potential."]
+			icon: {
+				Count: 1
+				id: "jujutsucraft:rika_body_helmet"
+				tag: {
+					CursePower: 1.0d
+				}
+			}
+			id: "03816ADA132061E6"
+			rewards: [
+				{
+					id: "034FCF662E06FBE8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "097A2F4B9EA1D8F3"
+					table_id: 6874649143691961077L
+					type: "loot"
+				}
+			]
+			subtitle: "&7Bound by cursed love"
+			tasks: [{
+				advancement: "jujutsucraft:skill_rika_control"
+				criterion: ""
+				id: "5367CE1ED519AFF0"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eSemi-Grade 1 Sorcerer"
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["03816ADA132061E6"]
+			description: ["&fTo truly master your bond, you must invoke &aPure Love&f  not as a weapon, but as a farewell. &fChannel your cursed energy through &aPure Love&f and allow &aRika&f to disappear after a short time, proving that your strength lies not in possession, but in release."]
+			id: "6AED826D3D49EB94"
+			rewards: [
+				{
+					id: "64F63E2852AB9EA8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CB94BD8716E7AF2"
+					table_id: 6874649143691961077L
+					type: "loot"
+				}
+				{
+					id: "5691F64B8C7A93B1"
+					item: {
+						Count: 1
+						id: "jujutsucraft:loudspeaker"
+						tag: {
+							CursePower: 2.0d
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&7A curse undone by love"
+			tasks: [{
+				advancement: "jujutsucraft:skill_curseis_lifted"
+				criterion: ""
+				id: "19CDA48E818E7A89"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&ePure Love’s Release"
+			x: 9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["44CCE43125B45D37"]
+			description: ["&fAs &aSatoru Gojo&f, you must begin proving why the world of sorcery will one day revolve around you. &fHarness the power of the &aSix Eyes&f and the &aLimitless Technique&f, demonstrating control, precision, and overwhelming cursed energy to ascend to the rank of &aGrade 2 Sorcerer&f."]
+			id: "6F1FF933C5B9CD27"
+			rewards: [
+				{
+					id: "69101800C6D80677"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A4693BF93054EB8"
+					table_id: 6874649143691961077L
+					type: "loot"
+				}
+			]
+			subtitle: "&7The awakening of the Six Eyes"
+			tasks: [{
+				advancement: "jujutsucraft:skill_high_speed"
+				criterion: ""
+				id: "7A151608C5E8D46F"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eGrade 2 Sorcerer"
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6F1FF933C5B9CD27"]
+			description: ["&fAs &aSatoru Gojo&f, your power now shakes the foundation of the jujutsu world. &fMaster the fusion of &aCursed Technique Lapse: Blue&f and &aCursed Technique Reversal: Red&f, and demonstrate overwhelming dominance worthy of the rank of &aGrade 1 Sorcerer&f."]
+			id: "7DF743A8DBABD07D"
+			rewards: [
+				{
+					id: "64B7F6B79DFAD168"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3940DDE7A2D4EDE5"
+					table_id: 6874649143691961077L
+					type: "loot"
+				}
+			]
+			subtitle: "&7The strongest begins to rise"
+			tasks: [{
+				advancement: "jujutsucraft:skill_strike_strengthening"
+				criterion: ""
+				id: "50ED7C6C75F24C6D"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eGrade 1 Sorcerer"
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["51CFFC0C88C27AFF"]
+			description: ["&fAs &aRyomen Sukuna&f, your mere presence distorts the balance between sorcerers and curses.Demonstrate overwhelming dominance in battle and unleash a fraction of your true cursed technique to claim the rank of &aSemi-Grade 1 Sorcerer&f a title beneath you, yet feared by all."]
+			icon: {
+				Count: 1
+				id: "jujutsucraft:hiten"
+				tag: {
+					CursePower: 10.0d
+					Damage: 0
+					Power: 0.25d
+					Range: 0.25d
+					Reach: 0.25d
+				}
+			}
+			id: "7E3909D835C1B8C7"
+			rewards: [
+				{
+					id: "601EE77D90DE8045"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A027D3D21092271"
+					table_id: 6874649143691961077L
+					type: "loot"
+				}
+			]
+			subtitle: "&7The King stirs once more"
+			tasks: [{
+				advancement: "jujutsucraft:skill_open"
+				criterion: ""
+				id: "41B3D2327A526552"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eSemi-Grade 1 Sorcerer"
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4C666E4CB3B4514D"]
+			description: ["&fEvery sorcerer begins somewhere. To earn the title of &aGrade 4 Sorcerer&f, you must prove you can sense and confront cursed spirits. Exorcise a minor curse and demonstrate basic control over your cursed energy, marking your official entry into the ranks of jujutsu sorcerers."]
+			id: "393DE9B9BD62B69A"
+			rewards: [
+				{
+					id: "460B8C48C51E85C4"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "5CA55EAEFF1EFBBC"
+					item: {
+						Count: 1
+						id: "artifacts:chorus_totem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&7First step into the jujutsu world"
+			tasks: [{
+				advancement: "jujutsucraft:sorcerer_grade_4"
+				criterion: ""
+				id: "7F8BE066B676C81D"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eGrade 4 Sorcerer"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["393DE9B9BD62B69A"]
+			description: ["&fTo rise to the rank of &aGrade 3 Sorcerer&f, you must prove consistent control over your cursed energy in true combat situations. Successfully exorcise multiple mid level curses and demonstrate tactical awareness, endurance, and refined technique worthy of greater responsibility."]
+			id: "546F8BD6C2872E6B"
+			rewards: [
+				{
+					id: "1F773D3E83775E66"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6766BA32A70F4168"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&7Tested in real combat"
+			tasks: [{
+				advancement: "jujutsucraft:sorcerer_grade_3"
+				criterion: ""
+				id: "0DEB59B327A90208"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eGrade 3 Sorcerer"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["546F8BD6C2872E6B"]
+			description: ["&fTo reach the rank of &aSemi-Grade 2 Sorcerer&f, you must demonstrate growth beyond standard expectations. Defeat powerful curses with refined cursed energy control and show the discipline, resilience, and combat judgment that mark a sorcerer on the verge of Grade 2."]
+			id: "59554E77F227F879"
+			rewards: [
+				{
+					id: "7F5F976EE7F0B2B2"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "21D131139F8DE946"
+					item: {
+						Count: 1
+						id: "minecraft:totem_of_undying"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&7Proving rising potential"
+			tasks: [{
+				advancement: "jujutsucraft:sorcerer_grade_2_semi"
+				criterion: ""
+				id: "4316DA1419D7AF60"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eSemi-Grade 2 Sorcerer"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["59554E77F227F879"]
+			description: ["&fReaching the rank of &aGrade 2 Sorcerer&f means you are no longer under constant supervision you are trusted with real missions. &fExorcise high threat curses, maintain composure under pressure, and demonstrate advanced control over your cursed technique to earn this respected title."]
+			id: "0AF21B61B4FE5A33"
+			rewards: [
+				{
+					id: "17CBE2D0CC90FD8E"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7B4E9429014F7529"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&7A sorcerer the field can rely on"
+			tasks: [{
+				advancement: "jujutsucraft:sorcerer_grade_2"
+				criterion: ""
+				id: "7481BE271D630497"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eGrade 2 Sorcerer"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0AF21B61B4FE5A33"]
+			description: ["&fTo attain the rank of &aSemi-Grade 1 Sorcerer&f, you must demonstrate power approaching the highest levels of jujutsu society. Overcome elite level curses, showcase near masterful cursed energy control, and prove that you can stand on missions where only the strongest are deployed."]
+			id: "32EA9668C2ED50C0"
+			rewards: [
+				{
+					id: "1FB8B83D0C6751EE"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "56F03F657BCE8349"
+					item: {
+						Count: 1
+						id: "artifacts:chorus_totem"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&7Standing among the elite"
+			tasks: [{
+				advancement: "jujutsucraft:sorcerer_grade_1_semi"
+				criterion: ""
+				id: "7CAB0FB0E06DC022"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eSemi-Grade 1 Sorcerer"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["32EA9668C2ED50C0"]
+			description: ["&fTo earn the rank of &aGrade 1 Sorcerer&f, you must stand among the elite defenders of humanity against powerful curses. Defeat special threat level enemies, demonstrate exceptional mastery of your cursed technique, and prove you can survive battles where even seasoned sorcerers fall."]
+			id: "6CF9C4B78C4426E3"
+			rewards: [
+				{
+					id: "1CE4CC20ECFB6161"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "24D1A426D22D2C81"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_golden_apple"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&7Among the strongest of humanity"
+			tasks: [{
+				advancement: "jujutsucraft:sorcerer_grade_1"
+				criterion: ""
+				id: "6702B9481670B2B0"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eGrade 1 Sorcerer"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6CF9C4B78C4426E3"]
+			description: ["&fRanks no longer define you. To become &aThe Strongest Sorcerer&f, you must surpass every limit placed upon the jujutsu world. &fDefeat elite and special grade level opponents, demonstrate absolute mastery of your cursed technique, and prove through undeniable dominance that none stand above you. &fThis is not a promotion it is a declaration. The era now bends around your power."]
+			id: "6420C74AEF2DB154"
+			rewards: [
+				{
+					id: "5D22C92CBC9C872F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CE2C2424DA0132B"
+					table_id: 6874649143691961077L
+					type: "loot"
+				}
+			]
+			subtitle: "&7A title that stands alone"
+			tasks: [{
+				advancement: "jujutsucraft:battle_atsuya_kusakabe"
+				criterion: ""
+				id: "4221373F191AF0D9"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eThe Strongest Sorcerer"
+			x: 1.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["6CF9C4B78C4426E3"]
+			description: ["&fThe title of &aSpecial Grade Sorcerer&f is not granted lightly it is reserved for those whose power cannot be measured by conventional standards. Demonstrate overwhelming cursed energy output, mastery of your innate technique, and the ability to defeat calamity level threats alone. &fAscend beyond the ranking system itself and claim the status of &aSpecial Grade&f  a force capable of reshaping the jujutsu world."]
+			id: "73A70BEFADAF4AD8"
+			rewards: [
+				{
+					id: "58DD062FF41A4BD6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AAA8EE1E5239777"
+					table_id: 6874649143691961077L
+					type: "loot"
+				}
+			]
+			subtitle: "&7A power that defies classification"
+			tasks: [{
+				advancement: "jujutsucraft:sorcerer_grade_special"
+				criterion: ""
+				id: "59FAEC5C5D923E63"
+				type: "advancement"
+			}]
+			title: "&5&lQuest: &r&eSpecial Grade Sorcerer"
+			x: -1.5d
+			y: -12.0d
+		}
+	]
+	title: "Chapter 1"
+}
